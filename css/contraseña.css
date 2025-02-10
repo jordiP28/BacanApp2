@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+body main {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    display: flex;
+       justify-content: center;
+       align-items: center;
+       justify-items: center;
+    }
+    img{
+        width: 250px;
+        height: auto;
+    }
+    h3{
+        font-size: 1.5rem;
+        color: #5087bb;
+    }
+    form{
+        border-radius: 15px;
+        padding: 15px;
+       
+     }
+     form input{
+        background-color:#5087bb ;
+        margin: 10px; 
+        border-radius: 10px;
+        padding: 10px;
+        border: none;
+     }
+     input::placeholder{
+        color: white;
+        text-align: center; 
+
+        }
+        .botones {
+            display: flex;
+            gap: 10px; /* Espacio entre los botones */
+        }
+        
+        #enviar, #cancelar {
+            padding: 4px 4px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+        }
+        
+        #enviar {
+            background-color: #4CAF50; /* Verde */
+            color: white;
+        }
+        
+        #cancelar {
+            background-color: #f8f2f1; /* Rojo */
+            color: rgb(8, 8, 8);
+            border-color: #e53935;
+        }
+        
+        #enviar:hover {
+            background-color: #2e7931; /* Verde más oscuro */
+        }
+        
+        #cancelar:hover {
+            background-color: #e53935; /* Rojo más oscuro */
+        }
+    a{
+        margin: 15px;
+        text-align: right;
+        text-decoration: none;
+    }
+        
