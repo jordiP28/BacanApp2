@@ -10,6 +10,11 @@ body{
     width: 100vw;
     height: 100vh;
 }
+header{
+    display: flex;
+    flex-direction: column;
+
+}
 header img{
     width: 25vw;
     height: auto;
@@ -32,9 +37,12 @@ a:hover{
     border-radius: 10px;
     padding: 3px;
 }
-
+h2 {
+    color: #5087bb;
+    margin-top: 10px;
+}
 .container {
-    display: flex;
+    display: block;
     flex-direction: column; 
     justify-content: center; 
     height: 100%; 
@@ -50,23 +58,48 @@ a:hover{
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-    margin-top: 160px;
+    margin-top: 10px;
 }
 
 .picture {
-    text-align: center;
-    margin-bottom: 20px;
+    display: flex; /* Usar flexbox para alinear los elementos */
+    align-items: flex-start; /* Alinear los elementos al inicio (parte superior) */
+    margin-bottom: 20px; /* Espacio entre las imágenes */
+}
+
+.left {
+    display: flex;
+    flex-direction: column; /* Apilar la imagen y el título verticalmente */
+    align-items: center; /* Centrar la imagen y el título horizontalmente */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.right {
+    display: flex;
+    flex-direction: column; /* Apilar el párrafo y el enlace verticalmente */
+    justify-content: flex-start; /* Alinear al inicio (parte superior) */
+}
+
+h5 {
+    margin-top: 10px; /* Espacio entre la imagen y el título */
+}
+
+p {
+    padding-top: 25px;
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin: 5px 0; /* Espacio vertical entre el párrafo y el enlace */
+}
+
+a {
+    margin-top: 5px; /* Espacio entre el párrafo y el enlace */
 }
 img {
     width: 30vw;
     height: auto;
     border-radius: 5px;
 }
+.picture:hover{
+    background-color: rgb(41, 41, 26);
+}
 
-h2 {
-    color: #5087bb;
-    margin-top: 10px;
-}
-p{
-   
-}
+

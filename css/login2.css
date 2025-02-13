@@ -38,13 +38,25 @@ form{
     color: white;
     text-align: center;
 }
-a{
+button{
+    padding: 5px;
+    background-color:rgb(109, 192, 109) ;
+    border-radius: 6px;
+    margin: 15px;
+    border: none;
+    color: white;
+    margin-left: 65px;
+  
+}
+
+
+.olvidaste{
     font-size: small;
     text-decoration: none;
     color: black;
     transition: 0.3s;
 }
-a:hover{
+.olvidaste:hover{
     background-color: rgb(172, 215, 253);
     padding: 8px;
     border-radius: 8px;
