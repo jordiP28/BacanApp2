@@ -13,6 +13,7 @@ body{
 header{
     display: flex;
     flex-direction: column;
+    margin: 20px;
 
 }
 header img{
@@ -21,6 +22,7 @@ header img{
     position: absolute;
     top: 20px; 
     right: 20px;
+   
 }
 header ul{
     margin-top: 35px;
@@ -36,4 +38,30 @@ a:hover{
     background-color: #e5b3f3;
     border-radius: 10px;
     padding: 3px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    gap: 15px;
+    margin-top: 40px;
+
+}
+
+img {
+    width: 30vw;
+    height: auto;
+    border-radius: 10px;
+    overflow: auto;
+}
+.section{
+    text-align: center;
+}
+.section img {
+    transition: transform 0.3s ease; /* Controla la duración y la suavidad de la transición */
+}
+
+.section img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al 110% */
 }
