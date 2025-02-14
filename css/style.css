@@ -10,12 +10,21 @@ html, body {
 
 body {
     display: flex; 
+    flex-direction: column;
     justify-content: center; 
     align-items: center;
     height: 100vh; 
-
 }
-
+a{
+    padding-top: 26px;
+    padding: 6px;
+    background-color: antiquewhite;
+    border-style: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(43, 141, 226);
+}
 
 
 
