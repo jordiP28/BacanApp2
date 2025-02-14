@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-direction: column;
+
+}
+header img{
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    top: 20px; 
+    right: 20px;
+}
+header ul{
+    margin-top: 35px;
+    margin-left: 30px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#5087bb;
+    font-weight: 600;
+}
+a:hover{
+    background-color: #e5b3f3;
+    border-radius: 10px;
+    padding: 3px;
+}
+h2 {
+    color: #5087bb;
+    margin-top: 10px;
+}
+.container {
+    display: block;
+    flex-direction: column; 
+    justify-content: center; 
+    height: 100%; 
+   
+}
+.img-icon{
+    width: 10vw;
+    margin: 10px;
+}
+.icon {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.container-2{
+   display: block;
+   flex-direction: column;
+   align-items: center;
+   align-content: center;
+   padding-left: 45px;
+}
+.picture {
+    display: flex; /* Usar flexbox para alinear los elementos */
+    align-items: flex-start; /* Alinear los elementos al inicio (parte superior) */
+    margin-bottom: 20px; /* Espacio entre las imágenes */
+}
+
+.left {
+    display: flex;
+    flex-direction: column; /* Apilar la imagen y el título verticalmente */
+    align-items: center; /* Centrar la imagen y el título horizontalmente */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.right {
+    display: flex;
+    flex-direction: column; /* Apilar el párrafo y el enlace verticalmente */
+    justify-content: flex-start; /* Alinear al inicio (parte superior) */
+}
+
+h4 {
+    margin-top: 10px; /* Espacio entre la imagen y el título */
+}
+
+p {
+    padding-top: 20px;
+    text-align: left; /* Alinear el texto a la izquierda */
+    padding-right: 18px;
+}
+
+a {
+    margin-top: 20px; /* Espacio entre el párrafo y el enlace */
+}
+img {
+    width: 30vw;
+    height: auto;
+    border-radius: 5px;
+}
+.picture:hover{
+    background-color: rgb(246, 252, 249);
+}
