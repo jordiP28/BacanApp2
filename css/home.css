@@ -1,10 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     font-size: 16px;
 }
 
@@ -13,16 +13,7 @@ body {
     margin: 0;
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;  
-    flex-direction: column;
-    height: 100%;  
-    position: relative;
-}
-
-.logo{
+.logo {
     width: 250px;
     height: auto;
     position: absolute;
@@ -30,26 +21,34 @@ main{
     right: 20px;
 }
 
-.container{
-    display: block;
-    margin-top: 150px; 
-    text-align: center; 
+.container {
+    display: flex; /* Asegúrate de que el contenedor principal use flexbox */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    margin-top: 80px; /* Espacio superior para el contenedor */
+    padding-top: 60px;
 }
 
-.icon{
+.icon {
     display: flex;
+    flex-direction: column; /* Mantiene la imagen y el texto en columna */
     justify-content: center;
     align-items: center;
     padding: 10px;
     margin: 10px;
+    width: calc(50% - 20px); /* Cada icono ocupa el 50% del ancho menos el margen */
 }
-
-img{
+.icon:hover{
+    background-color: #ecf3fa;
+    border-radius: 10px;
+    padding: 10px;
+}
+img {
     width: 10vw;
     height: auto;
 }
 
-a{
+a {
     color: #5087bb;
     padding-left: 20px;
     font-size: 18px;
@@ -57,4 +56,3 @@ a{
     text-decoration: none;
     font-weight: 600;
 }
-
